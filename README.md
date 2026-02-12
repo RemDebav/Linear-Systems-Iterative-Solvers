@@ -14,7 +14,10 @@ Recherche expérimentale du meilleur facteur $\omega$ pour minimiser le nombre d
 Utilitaires pour créer des matrices définies positives et symétriques afin de garantir la convergence.
 
 ## 📁 Structure du Projet
-* `/src` : Fonctions sources (`SOR.m`, `jacobi.m`, etc.).
+* `/src` : L'ensemble des scripts et des fonctions Matlab.
+  - aux* : Fonction auxiliaire
+  - method* : Fonction implémentant la méthode x.
+  - analyse* : Script permettant d'analyser différentes méthodes et l'influence de certaines variables
 * `/scripts` : Scripts de test et de comparaison.
 * `/results` : Graphiques de performance et benchmarks.
 
